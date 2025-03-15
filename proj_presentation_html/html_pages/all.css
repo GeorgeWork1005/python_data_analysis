@@ -1,0 +1,17 @@
+
+img {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 1s;
+}
+
+iframe {
+  border: 0;
+}
+
+.active {
+  opacity: 0;
+  pointer-events: none;
+}
+
